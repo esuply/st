@@ -10,6 +10,13 @@
 }
 
 html { font-size: 60%; }
+html, body {
+    overflow: hidden;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 
 body {
     background-color: var(--background);
@@ -27,7 +34,7 @@ body {
     font: 400 1.7rem/2.5rem "Source Code Pro", monospace; 
     display: inline-block;
     background-color: var(--background);
-    padding: 5px 15px;
+    padding: 2% 5%;
     border-radius: 3px;
 }
   
